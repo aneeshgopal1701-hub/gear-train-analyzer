@@ -1,0 +1,6 @@
+DriverTeeth,DrivenTeeth,InputRPM,InputTorque,Efficiency,GearRatio,OutputRPM,OutputTorque,InputPower(W),OutputPower(W),Performance
+20,40,1200,50,95,2.0,600.0,95.0,6283.19,5969.03,Excellent
+25,50,1500,45,94,2.0,750.0,84.6,7068.58,6644.47,Good
+18,54,1800,35,92,3.0,600.0,96.6,6597.34,6069.56,Good
+30,60,1000,60,96,2.0,500.0,115.2,6283.19,6031.86,Excellent
+22,44,1400,40,93,2.0,700.0,74.4,5864.31,5453.8,Good

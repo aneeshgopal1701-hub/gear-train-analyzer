@@ -1,0 +1,92 @@
+======================================================================
+        GEAR TRAIN PERFORMANCE ANALYZER
+======================================================================
+
+INPUT DATA
+
+   DriverTeeth  DrivenTeeth  InputRPM  InputTorque  Efficiency
+0           20           40      1200           50          95
+1           25           50      1500           45          94
+2           18           54      1800           35          92
+3           30           60      1000           60          96
+4           22           44      1400           40          93
+
+Number of Gear Sets : 5
+
+Starting Calculations...
+
+================================================================================
+FINAL RESULTS
+================================================================================
+   DriverTeeth  DrivenTeeth  ...  OutputPower(W)  Performance
+0           20           40  ...         5969.03    Excellent
+1           25           50  ...         6644.47         Good
+2           18           54  ...         6069.56         Good
+3           30           60  ...         6031.86    Excellent
+4           22           44  ...         5453.80         Good
+
+[5 rows x 11 columns]
+
+Results saved successfully as: gear_results.csv
+
+PROJECT SUMMARY
+--------------------------------------------------
+Average Gear Ratio      : 2.2
+Maximum Output RPM      : 750.0
+Minimum Output RPM      : 500.0
+Average Output Torque   : 93.16
+Maximum Output Torque   : 115.2
+Average Efficiency      : 94.0 %
+--------------------------------------------------
+
+============================================================
+FINAL ANALYSIS
+============================================================
+
+Highest Output Speed
+--------------------
+DriverTeeth            25
+DrivenTeeth            50
+InputRPM             1500
+InputTorque            45
+Efficiency             94
+GearRatio             2.0
+OutputRPM           750.0
+OutputTorque         84.6
+InputPower(W)     7068.58
+OutputPower(W)    6644.47
+Performance          Good
+Name: 1, dtype: object
+
+Highest Output Torque
+---------------------
+DriverTeeth              30
+DrivenTeeth              60
+InputRPM               1000
+InputTorque              60
+Efficiency               96
+GearRatio               2.0
+OutputRPM             500.0
+OutputTorque          115.2
+InputPower(W)       6283.19
+OutputPower(W)      6031.86
+Performance       Excellent
+Name: 3, dtype: object
+
+Best Efficiency
+----------------
+DriverTeeth              30
+DrivenTeeth              60
+InputRPM               1000
+InputTorque              60
+Efficiency               96
+GearRatio               2.0
+OutputRPM             500.0
+OutputTorque          115.2
+InputPower(W)       6283.19
+OutputPower(W)      6031.86
+Performance       Excellent
+Name: 3, dtype: object
+
+Graphs saved successfully inside the 'graphs' folder.
+Analysis completed successfully.
